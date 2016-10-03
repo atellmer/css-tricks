@@ -81,3 +81,23 @@
   height: 200px;
   background-color: #26A69A;
 }
+
+/*case 6*/
+[case-6].block {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: #F1F8E9;
+}
+
+[case-6] .block__element {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 200px;
+  height: 200px;
+  background-color: #9CCC65;
+}
