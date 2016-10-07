@@ -105,7 +105,6 @@
 /*case 7*/
 [case-7].block {
 	display: table;
-  position: relative;
   width: 100%;
   height: 100vh;
   background-color: #FCE4EC;
