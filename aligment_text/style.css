@@ -1,0 +1,24 @@
+/*case-1*/
+[case-1] {
+  width: 100%;
+  height: 100vh;
+  background-color: #FCE4EC;
+}
+
+[case-1] .block {
+  display: table;
+  text-align: center;
+  width: calc(33.3333% - 20px);
+  height: auto;
+  min-height: 200px;
+  float: left;
+  padding: 10px;
+  margin: 10px;
+  background-color: #26C6DA;
+}
+
+[case-1] .block__element {
+  display: table-cell;
+  vertical-align: bottom;
+  color: #fff;
+}
